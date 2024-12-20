@@ -1,8 +1,9 @@
+# Do not add comments to this file. They will be lost.
+
 sidebar:
   - type: section
     link: /WebAssembly
     title: WebAssembly_home_page
-
   - title: Tutorials
     details: open
     children:
@@ -22,7 +23,6 @@ sidebar:
         title: Loading_and_running
       - link: /WebAssembly/Exported_functions
         title: Exported_functions
-
   - title: JavaScript_interface
     details: open
     children:
@@ -48,8 +48,19 @@ sidebar:
         code: true
       - link: /WebAssembly/JavaScript_interface/RuntimeError
         code: true
-
 l10n:
+  de:
+    WebAssembly_home_page: WebAssembly-Startseite
+    Tutorials: Anleitungen
+    WebAssembly_concepts: WebAssembly-Konzepte
+    Compiling_to_wasm: C/C++ zu WebAssembly kompilieren
+    Compiling_rust_to_wasm: Rust zu WebAssembly kompilieren
+    JavaScript_API: WebAssembly JavaScript API verwenden
+    Text_format: WebAssembly-Textformats verstehen
+    Text_format_to_wasm: Umwandlung des WebAssembly-Textformats in wasm
+    Loading_and_running: WebAssembly-Code laden und ausführen
+    Exported_functions: Exportierte WebAssembly-Funktionen
+    JavaScript_interface: JavaScript-Schnittstelle
   en-US:
     WebAssembly_home_page: WebAssembly home page
     Tutorials: Tutorials
